@@ -1,0 +1,18 @@
+banque:
+  application:
+    serveur:
+      port: 1099
+    datasource:
+      source: postgresql
+      host: ${DB_HOST:localhost}
+      port: ${DB_PORT:5432}
+      username: ${DB_USERNAME:postgres}
+      password: ${DB_PASSWORD:mastermind01}
+      driver-class-name: org.postgresql.Driver
+      schema: ${DB_SCHEMA:public}
+      database: ${DB_NAME:banque}
+      reload: false
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      show_sql: true
+      hbm2ddl_auto: validate

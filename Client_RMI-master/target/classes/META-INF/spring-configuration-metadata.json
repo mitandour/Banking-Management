@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.esp.banque.config.properties.ServeurProperties",
+      "name": "serveur",
+      "type": "com.esp.banque.config.properties.ServeurProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.esp.banque.config.properties.ServeurProperties",
+      "name": "serveur.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.ServeurProperties",
+      "name": "serveur.port",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

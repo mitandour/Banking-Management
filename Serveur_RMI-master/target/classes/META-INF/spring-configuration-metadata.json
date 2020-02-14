@@ -1,0 +1,91 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "name": "banque.application.datasource",
+      "type": "com.esp.banque.config.properties.DatasourceProperties"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.HibernateProperties",
+      "name": "banque.application.hibernate",
+      "type": "com.esp.banque.config.properties.HibernateProperties"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.ServerProperties",
+      "name": "banque.application.serveur",
+      "type": "com.esp.banque.config.properties.ServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "defaultValue": "",
+      "name": "banque.application.datasource.database",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "name": "banque.application.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "name": "banque.application.datasource.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "name": "banque.application.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "name": "banque.application.datasource.port",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "defaultValue": true,
+      "name": "banque.application.datasource.reload",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "defaultValue": "",
+      "name": "banque.application.datasource.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "name": "banque.application.datasource.source",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.DatasourceProperties",
+      "name": "banque.application.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.HibernateProperties",
+      "name": "banque.application.hibernate.dialect",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.HibernateProperties",
+      "name": "banque.application.hibernate.hbm2ddl-auto",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.HibernateProperties",
+      "defaultValue": false,
+      "name": "banque.application.hibernate.show-sql",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.esp.banque.config.properties.ServerProperties",
+      "name": "banque.application.serveur.port",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
